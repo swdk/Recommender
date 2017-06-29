@@ -14,6 +14,7 @@ The traing result data will be stored in Recommendation/TrainingResults file for
 #Usage
 Run train_recommender_cold_start.py to train the model.
 Result:
+![Screenshot](1.png)
 
 #Recommender function
 cold_start_recommendation.py returns the user the highest 5 ranked movies.
@@ -23,6 +24,7 @@ product_similarity_from_data.py returns the user 5 most similar movies for user.
 It is now hardcoded to find movie no.5 for testing.
 The most similar movie is the movie itself.
 Results:
+![Screenshot](2.png)
 
 
 
