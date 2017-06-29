@@ -19,6 +19,8 @@ Result:
 #Recommender function
 cold_start_recommendation.py returns the user the highest 5 ranked movies.
 This should be used when there is no data for the new user/training results.
+Results:
+![Screenshot](3.png)
 
 product_similarity_from_data.py returns the user 5 most similar movies for user.
 It is now hardcoded to find movie no.5 for testing.
