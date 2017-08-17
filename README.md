@@ -2,16 +2,12 @@
 
 ## Recommender using python libraries numpy, pandas and pickle
 
-### Imported custom Low-ranked Matrix factorization algorithum
-
-### The files are stored in 2 files, trainning and Recommendation
-
-### We are only using the movie_rating_data_set_training.csv as the training data.
-
-### The file is a file with user_id, movie_id and rating.
-### There is another file movies.csv for referencing the movie names
-
-### The traing result data will be stored in Recommendation/TrainingResults file for recommender.
+Imported custom Low-ranked Matrix factorization algorithum
+The files are stored in 2 files, trainning and Recommendation
+We are only using the movie_rating_data_set_training.csv as the training data.
+The data is in the format (user_id, movie_id and rating).
+Refered to movies.csv for the movie names
+The training result data will be stored in Recommendation/TrainingResults.
 
 # Usage
 Run train_recommender_cold_start.py to train the model.
